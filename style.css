@@ -46,12 +46,12 @@ a {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  color:white;
+  color: white;
   padding-top: 120px;
 }
 
 .headline-title {
-  color: #ff6B00;
+  color: #ff6b00;
   font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -69,7 +69,7 @@ h2 {
   line-height: 32px;
   display: flex;
   align-items: center;
-  color:  #fff5e1;
+  color: #fff5e1;
   margin: 12px;
 }
 
