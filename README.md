@@ -3,6 +3,7 @@
 # My Portfolio:
 
 > Web page to Showcase my Projects.
+![screenshot](img/Screenshot.jpg)
 
 
 ## Built With
