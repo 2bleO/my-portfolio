@@ -4,31 +4,31 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  }
+}
 
 body {
   top: 20px;
   font-family: Poppins, sans-serif;
-  background-color: #1C1A19;
-  }
+  background-color: #1c1a19;
+}
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   padding: 20px;
-  }
+}
 
 a {
   text-decoration: none;
-  color:white;
-  font-family: Roboto;
+  color: white;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
-  }
+}
 
 .menu {
   color: white;
@@ -37,7 +37,7 @@ a {
 
 .name {
   cursor: pointer;
-  }
+}
 
 .headline {
   background-image: url(img/headline-illustration.png);
@@ -51,26 +51,26 @@ a {
 }
 
 .headline-title {
-  color:#FF6B00;
-  font-family: Crete Round;
+  color: #ff6B00;
+  font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  margin: 12px
+  margin: 12px;
 }
 
 h2 {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #FFF5E1;
-  margin: 12px
+  color:  #fff5e1;
+  margin: 12px;
 }
 
 .description {
@@ -78,8 +78,8 @@ h2 {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px; 
-  margin: 12px
+  line-height: 24px;
+  margin: 12px;
 }
 
 .social {
@@ -87,13 +87,12 @@ h2 {
   display: flex;
   width: 55%;
   justify-content: space-between;
+  margin-left: 12px;
   margin-bottom: 25%;
   padding: 0;
-  margin: 12px
 }
 
 .social-icon i {
   margin-right: 20px;
   font-size: 25px;
-  
 }
