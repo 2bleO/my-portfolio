@@ -254,7 +254,7 @@ h2 {
   margin-left: 16px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 500; 
+  font-weight: 500;
 }
 
 .made-with li {
@@ -321,10 +321,9 @@ h2 {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
   font-size: 72px;
   line-height: 88px;
-  letter-spacing: 0.37px;
   margin-top: 120px;
   margin-left: 24px;
   margin-right: 24px;
@@ -343,7 +342,7 @@ h2 {
 
 .about hr {
   width: 327px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   margin: 0 auto;
 }
 
@@ -369,7 +368,7 @@ h2 {
   margin: 22px;
 }
 
-.knowledge-titles img{
+.knowledge-titles img {
   margin: 12px;
 }
 
@@ -377,12 +376,12 @@ h2 {
   width: 18px;
   height: 18px;
   transform: rotate(-45deg);
-  background-color: #FF6B00;;
+  background-color: #ff6b00;
 }
 
 .knowledge li {
   list-style-type: none;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
