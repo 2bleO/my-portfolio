@@ -44,7 +44,7 @@ a {
   cursor: pointer;
 }
 
-/*Headline*/
+/* Headline */
 
 .headline {
   background-image: url(img/headline-illustration.png);
@@ -114,13 +114,13 @@ h2 {
 }
 
 .works-title {
-  font-family: Crete Round;
+  font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
   line-height: 52px;
   align-items: center;
-  color: #1C1A19;
+  color: #1c1a19;
   margin-top: 120px;
   margin-left: auto;
   margin-right: auto;
@@ -153,17 +153,17 @@ h2 {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #091E42;
+  color: #091e42;
   margin: 24px;
 }
 
 .multipost p {
-  font-family: Inter, sans-serif;;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .technologies {
@@ -206,7 +206,7 @@ h2 {
 
 .btn1:hover {
   color: #f55800;
-  background: #1C1A19;
+  background: #1c1a19;
   box-sizing: border-box;
 }
 
@@ -233,14 +233,14 @@ h2 {
 }
 
 .papd p {
-    color: #fff;
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    margin-left: 16px;
-    margin-right: 16px;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .made-with {
@@ -254,7 +254,7 @@ h2 {
   margin-left: 16px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 500;  
+  font-weight: 500; 
 }
 
 .made-with li {
@@ -270,11 +270,9 @@ h2 {
 .papd button {
   margin: 0;
   height: 48px;
-  left: 0px;
-  top: 0px;
   color: #fff;
-  background: #FF6B00;
-  font-family: Inter;
+  background: #ff6b00;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -282,9 +280,23 @@ h2 {
   border: none;
 }
 
+.about button {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 24px;
+  margin-bottom: 209px;
+}
+
 .papd button:hover {
   color: #f55800;
-  background: #1C1A19;
+  background: #1c1a19;
   box-sizing: border-box;
 }
 
@@ -305,7 +317,7 @@ h2 {
 }
 
 .about-me h2 {
-  font-family: Crete Round;
+  font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.37px;
@@ -319,28 +331,14 @@ h2 {
 }
 
 .about-me p {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
   margin-left: 24px;
   margin-right: 24px;
-}
-
-.about button {
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin: 24px;
-  margin-bottom: 209px;
 }
 
 .about hr {
