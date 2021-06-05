@@ -10,7 +10,7 @@
 }
 
 body {
-  top: 20px;
+  min-width: 320px;
   font-family: Poppins, sans-serif;
   background-color: #1c1a19;
 }
@@ -127,7 +127,7 @@ h2 {
 }
 
 .separate {
-  width: 327px;
+  width: 320px;
   margin: 0 auto;
 }
 
@@ -143,6 +143,10 @@ h2 {
 .multipost {
   display: flex;
   flex-direction: column;
+}
+
+.multipost img {
+  width: 100%;
 }
 
 .multipost h3 {
@@ -280,6 +284,8 @@ h2 {
   border: none;
 }
 
+/* About */
+
 .about button {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -299,8 +305,6 @@ h2 {
   background: #1c1a19;
   box-sizing: border-box;
 }
-
-/* About */
 
 .about {
   background-color: #1c1a19;
@@ -394,3 +398,4 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+
