@@ -215,6 +215,7 @@ h2 {
   flex-direction: column;
   background-image: url("img/papd-img.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .papd h3 {
