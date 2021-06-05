@@ -160,7 +160,7 @@ h2 {
 .multipost p {
   font-family: Inter, sans-serif;;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 16px;
   line-height: 24px;
   color: #091E42;
@@ -199,6 +199,7 @@ h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   margin-top: 10px;
+  margin-bottom: 24px;
   align-self: flex-start;
   color: white;
 }
@@ -285,3 +286,114 @@ h2 {
   color: #f55800;
   background: #1C1A19;
   box-sizing: border-box;
+}
+
+/* About */
+
+.about {
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me {
+  background-image: url("img/illustration-about-me-mobile.png");
+  background-repeat: no-repeat;
+  background-position: right 0 top 385px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me h2 {
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.about-me p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.about button {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 24px;
+  margin-bottom: 209px;
+}
+
+.about hr {
+  width: 327px;
+  border: 1px solid #FFFFFF;
+  margin: 0 auto;
+}
+
+.knowledge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin-top: 136px;
+}
+
+.knowledge-titles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 22px;
+}
+
+.knowledge-titles img{
+  margin: 12px;
+}
+
+.sqr1 {
+  width: 18px;
+  height: 18px;
+  transform: rotate(-45deg);
+  background-color: #FF6B00;;
+}
+
+.knowledge li {
+  list-style-type: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  margin: 8px;
+}
+
+.knowledge ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
