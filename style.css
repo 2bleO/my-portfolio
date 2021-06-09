@@ -186,7 +186,6 @@ h2 {
   float: right;
 }
 
-
 .technologies li {
   height: 40px;
   padding: 10px 12px;
@@ -223,7 +222,7 @@ h2 {
 
 .btn1:active {
   color: #f4f1f0;
-  background: #E05304;
+  background: #e05304;
   box-sizing: border-box;
 }
 
@@ -435,7 +434,7 @@ h2 {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-  margin: 120px 0px 73px 0px;
+  margin: 120px 0 73px 0px;
 }
 
 .contact-inputs {
@@ -446,7 +445,7 @@ h2 {
   width: 100%;
   border: none;
   margin-top: 39px;
-  padding: 0px 16px;
+  padding: 0 16px;
 }
 
 .contact-message {
@@ -495,8 +494,8 @@ footer {
 .footer-hr {
   width: 134px;
   height: 5px;
+  margin: 23px auto 8px auto;
   margin-bottom: 8px;
   background: #0d151e;
   border-radius: 10px;
-  margin: 23px auto 8px auto;
 }
