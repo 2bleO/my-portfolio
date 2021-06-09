@@ -169,15 +169,15 @@
     <div class="contact-header">
       <h3 class="contact-title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
     </div>
-    <form>
+    <form action="https://formspree.io/f/xjvjrbpg" method="POST">
       <div class="contact-inputs">
-        <input type="text" id="name" name="name" placeholder="Full Name" required>
+        <input type="text" id="name" name="name" maxlength="30" placeholder="Full Name" required>
       </div>
       <div class="contact-inputs">
         <input type="text" id="email" name="email" placeholder="Email address" required>
       </div>
     </div>
-    <textarea class="contact-message" id="message" name="message" maxlength="500" placeholder="Enter your text here" required></textarea>
+    <textarea class="contact-message" id="message" name="message" maxlength="500" placeholder="Enter text here" required></textarea>
     <div class="form-button">
       <button type="submit" id="submit" class="btn1">Get in touch</button>
     </div>
@@ -192,7 +192,7 @@
       <li class="social-icon"><a href="#"><i class="fab fa-twitter"></i></a></li>
       <li class="social-icon"><a href="#"><i class="fab fa-medium"></i></a></li>
     </ul>
-    <hr>
+    <div class="footer-hr"></div>
   </footer>   
 </body>
 </html>
