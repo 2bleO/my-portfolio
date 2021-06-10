@@ -25,10 +25,18 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #3c3a39;
-  padding: 20px;
+  
 }
 
-a {
+@media (min-width: 700px) {
+  .header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 20px 10%;
+  }
+}
+
+.name {
   text-decoration: none;
   color: white;
   font-family: Roboto, sans-serif;
@@ -43,8 +51,34 @@ a {
   cursor: pointer;
 }
 
-.name {
-  cursor: pointer;
+@media (min-width: 700px) {
+  .menu {
+    display: none;
+  }
+}
+
+.desktop-menu {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+.desktop-menu ul {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-column-gap: 32px;
+  width: 50%;
+  list-style-type: none;
+}
+
+@media (max-width: 700px) {
+    .desktop-menu {
+      display: none;
+    }
+}
+
+.main {
+  background-color: #fff;
 }
 
 /* Headline */
@@ -103,6 +137,7 @@ h2 {
 }
 
 .social-icon i {
+  color: white;
   margin-right: 20px;
   font-size: 25px;
 }
