@@ -26,7 +26,6 @@ header {
   align-items: center;
   background-color: #3c3a39;
   padding: 20px;
-  
 }
 
 @media (min-width: 800px) {
@@ -83,9 +82,9 @@ header {
 }
 
 @media (max-width: 800px) {
-    .desktop-menu {
-      display: none;
-    }
+  .desktop-menu {
+    display: none;
+  }
 }
 
 .main {
@@ -439,6 +438,7 @@ h2 {
   .desktop-project-1 {
     background-image: url("img/project-1.png");
   }
+
   .desktop-project-1 h3,
   .desktop-project-1 p,
   .desktop-project-1 ul {
@@ -460,6 +460,7 @@ h2 {
   .desktop-project-3 {
     background-image: url("img/project-3.png");
   }
+
   .desktop-project-3 button {
     display: none;
   }
@@ -469,6 +470,7 @@ h2 {
   .desktop-project-4 {
     background-image: url("img/project-4.png");
   }
+
   .desktop-project-4 button {
     display: none;
   }
@@ -478,6 +480,7 @@ h2 {
   .desktop-project-5 {
     background-image: url("img/project-5.png");
   }
+
   .desktop-project-5 button {
     display: none;
   }
@@ -487,6 +490,7 @@ h2 {
   .desktop-project-6 {
     background-image: url("img/project-6.png");
   }
+
   .desktop-project-6 button {
     display: none;
   }
@@ -647,7 +651,6 @@ h2 {
   }
 }
 
-
 .about hr {
   width: 327px;
   border: 1px solid #fff;
@@ -759,7 +762,7 @@ h2 {
   .contact-form-1 {
     padding: 130px 100px;
     display: grid;
-    grid-template-columns: 40% 60% ;
+    grid-template-columns: 40% 60%;
     grid-column-gap: 40px;
   }
 }
@@ -768,7 +771,7 @@ h2 {
   .contact-form-1 {
     padding: 130px 141px;
     display: grid;
-    grid-template-columns: 40% 60% ;
+    grid-template-columns: 40% 60%;
     grid-column-gap: 40px;
   }
 }
