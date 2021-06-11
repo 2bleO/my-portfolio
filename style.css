@@ -754,8 +754,8 @@ footer {
   }
   
   .about-me {
-      background-image: none;
-    }
+    background-image: none;
+  }
 }
 
 @media (min-width: 1440px) {
