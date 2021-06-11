@@ -730,6 +730,7 @@ footer {
     margin: 0;
     font-size: 23px;
     line-height: 35px;
+    text-align: left;
   }
 
   .form-button {
