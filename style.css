@@ -153,8 +153,6 @@ h2 {
 }
 
 .separate {
-  width: 320px;
-  margin: 0 auto;
   border: 1px solid #212121;
 }
 
@@ -588,19 +586,14 @@ footer {
   }
 
   .works-heading {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 40% 60%;
     align-items: center;
     margin-top: 135px;
   }
 
   .works-title {
     margin: 0 auto;
-  }
-
-  .separate {
-    width: 400px;
   }
 
   .multipost {
@@ -769,10 +762,6 @@ footer {
 
   .my-works {
     padding: 0 141px;
-  }
-
-  .separate {
-    width: 794px;
   }
 
   .multipost {
