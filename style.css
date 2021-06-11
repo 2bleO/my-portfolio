@@ -28,7 +28,7 @@ header {
   padding: 20px;
 }
 
-a {
+.name {
   text-decoration: none;
   color: white;
   font-family: Roboto, sans-serif;
@@ -43,8 +43,26 @@ a {
   cursor: pointer;
 }
 
-.name {
-  cursor: pointer;
+.desktop-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.desktop-menu ul {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-column-gap: 32px;
+  width: 50%;
+  list-style-type: none;
+}
+
+.desktop-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  background-color: #fff;
 }
 
 /* Headline */
@@ -96,13 +114,13 @@ h2 {
   list-style: none;
   display: flex;
   width: 55%;
-  justify-content: space-between;
   margin-left: 12px;
   margin-bottom: 25%;
   padding: 0;
 }
 
 .social-icon i {
+  color: white;
   margin-right: 20px;
   font-size: 25px;
 }
@@ -114,6 +132,11 @@ h2 {
   grid-template-columns: auto;
   grid-row-gap: 24px;
   background-color: white;
+}
+
+.works-heading {
+  display: grid;
+  grid-template-columns: auto;
 }
 
 .works-title {
@@ -130,8 +153,7 @@ h2 {
 }
 
 .separate {
-  width: 320px;
-  margin: 0 auto;
+  border: 1px solid #212121;
 }
 
 .projects {
@@ -167,9 +189,9 @@ h2 {
 .multipost p {
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
   color: #091e42;
 }
 
@@ -239,6 +261,7 @@ h2 {
   background-image: url("img/papd-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 24px;
 }
 
 .papd h3 {
@@ -487,7 +510,7 @@ footer {
   padding-top: 25px;
 }
 
-.footer-social a {
+.footer-social i {
   color: #505f79;
 }
 
@@ -499,3 +522,268 @@ footer {
   background: #0d151e;
   border-radius: 10px;
 }
+
+/* Media Queries */
+
+@media (min-width: 992px) {
+  .header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 20px 10%;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .headline {
+    flex-direction: row;
+    height: 798px;
+    padding-top: 0;
+    background-image: url(img/Illustration-header.png);
+    background-size: 40%;
+  }
+
+  .headline-header {
+    max-width: 566px;
+    padding-top: 192px;
+    margin-left: 40px;
+  }
+
+  .headline-title {
+    font-size: 72px;
+    line-height: 81px;
+  }
+
+  .headline-header h2 {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .social {
+    flex-direction: column;
+    width: auto;
+    margin: 36px;
+    justify-content: center;
+    align-items: center;
+    order: -1;
+  }
+
+  .social li {
+    margin: 5px 0;
+  }
+
+  .my-works {
+    padding: 0 100px;
+  }
+
+  .works-heading {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    margin-top: 135px;
+  }
+
+  .works-title {
+    margin: 0 auto;
+  }
+
+  .multipost {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+  }
+
+  .multipost h3 {
+    margin: 0;
+  }
+
+  .projects-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    margin-bottom: 100px;
+  }
+
+  .papd {
+    height: 435px;
+    justify-content: flex-end;
+  }
+
+  .desktop-project-1 {
+    background-image: url("img/project-1.png");
+  }
+
+  .desktop-project-1 h3,
+  .desktop-project-1 p,
+  .desktop-project-1 ul {
+    display: none;
+  }
+
+  .desktop-project-2 {
+    background-image: url("img/project-2.png");
+  }
+
+  .desktop-project-2 button {
+    display: none;
+  }
+
+  .desktop-project-3 {
+    background-image: url("img/project-3.png");
+  }
+
+  .desktop-project-3 button {
+    display: none;
+  }
+
+  .desktop-project-4 {
+    background-image: url("img/project-4.png");
+  }
+
+  .desktop-project-4 button {
+    display: none;
+  }
+
+  .desktop-project-5 {
+    background-image: url("img/project-5.png");
+  }
+
+  .desktop-project-5 button {
+    display: none;
+  }
+
+  .desktop-project-6 {
+    background-image: url("img/project-6.png");
+  }
+
+  .desktop-project-6 button {
+    display: none;
+  }
+
+  .about {
+    padding: 0 100px;
+  }
+
+  .about-me p {
+    max-width: 566px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .about hr {
+    width: 100%;
+  }
+
+  .knowledge {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 142px;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  .knowledge-titles {
+    justify-content: flex-start;
+    margin: 0 0 44px 0;
+    font-size: 20px;
+  }
+
+  .knowledge-titles img {
+    margin: 10px;
+  }
+
+  .sqr1 {
+    width: 12px;
+    height: 12px;
+  }
+
+  .knowledge ul {
+    align-items: baseline;
+  }
+
+  .contact-form-1 {
+    padding: 130px 100px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 24px;
+    align-items: baseline;
+  }
+
+  .contact-title {
+    max-width: 455px;
+    margin: 0;
+    font-size: 23px;
+    line-height: 35px;
+    text-align: left;
+  }
+
+  .form-button {
+    text-align: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .desktop-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1308px) {
+  .about {
+    padding: 0 141px;
+    background-image: url("img/illustration-about me.png");
+    background-size: 672.39px 352.38px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-position-y: 99.47px;
+  }
+
+  .about-me {
+    background-image: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .headline {
+    flex-direction: row;
+    height: 798px;
+    padding-top: 0;
+    background-image: url(img/Illustration-header.png);
+  }
+
+  .my-works {
+    padding: 0 141px;
+  }
+
+  .multipost {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap: 24px;
+  }
+
+  .contact-form-1 {
+    padding: 130px 135px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 24px;
+  }
+
+  .contact-title {
+    max-width: 455px;
+    margin: 0;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+  }
+}
+
+/* Animations and transitions */
