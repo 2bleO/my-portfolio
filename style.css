@@ -599,7 +599,6 @@ h2 {
     background-position: top right;
     background-repeat: no-repeat;
     background-position-y: 99.47px;
-
   }
 }
 
@@ -616,6 +615,7 @@ h2 {
     background-image: none;
   }
 }
+
 .about-me h2 {
   font-family: Crete Round, sans-serif;
   font-style: normal;
