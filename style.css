@@ -36,6 +36,8 @@ header {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
+  animation-name: changecolors;
+  animation-duration: 3s;
 }
 
 .menu {
@@ -790,4 +792,14 @@ footer {
 img:hover {
   border-radius: 50%;
   transition: width 2s, height 4s;
+}
+
+@keyframes changecolors {
+  0% {color: white;}
+  15% {color: thistle;}
+  25% {color: rgb(177, 49, 166);}
+  50% {color: rgb(157, 32, 206);}
+  75% {color: teal;}
+  90% {color: rgb(0, 41, 128);}
+  100% {color: white;}
 }
