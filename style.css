@@ -533,7 +533,7 @@ footer {
     grid-template-columns: 25% 75%;
     padding: 20px 10%;
   }
-
+  
   .name {
     font-size: 20px;
   }
@@ -642,54 +642,54 @@ footer {
   .desktop-project-2 button {
     display: none;
   }
-  
+
   .desktop-project-3 {
     background-image: url("img/project-3.png");
   }
-  
+
   .desktop-project-3 button {
     display: none;
   }
-  
+
   .desktop-project-4 {
     background-image: url("img/project-4.png");
   }
-  
+
   .desktop-project-4 button {
     display: none;
   }
-  
+
   .desktop-project-5 {
     background-image: url("img/project-5.png");
   }
-  
+
   .desktop-project-5 button {
     display: none;
   }
-  
+
   .desktop-project-6 {
     background-image: url("img/project-6.png");
   }
-  
+
   .desktop-project-6 button {
     display: none;
   }
-  
+
   .about {
     padding: 0 100px;
   }
-  
+
   .about-me p {
     max-width: 566px;
     text-align: left;
     font-size: 20px;
     line-height: 32px;
   }
-  
+
   .about hr {
     width: 100%;
   }
-  
+
   .knowledge {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -697,22 +697,22 @@ footer {
     justify-content: space-around;
     align-items: baseline;
   }
-  
+
   .knowledge-titles {
     justify-content: flex-start;
     margin: 0 0 44px 0;
     font-size: 20px;
   }
-  
+
   .knowledge-titles img {
     margin: 10px;
   }
-  
+
   .sqr1 {
     width: 12px;
     height: 12px;
   }
-  
+
   .knowledge ul {
     align-items: baseline;
   }
@@ -731,7 +731,7 @@ footer {
     font-size: 23px;
     line-height: 35px;
   }
-  
+
   .form-button {
     text-align: left;
   }
