@@ -696,7 +696,7 @@ h2 {
   .knowledge-titles {
     justify-content: flex-start;
     margin: 0 0 44px 0;
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
@@ -719,8 +719,8 @@ h2 {
 
 @media (min-width: 800px) {
   .sqr1 {
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
   }
 }
 
