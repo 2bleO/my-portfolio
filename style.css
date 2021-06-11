@@ -533,7 +533,7 @@ footer {
     grid-template-columns: 25% 75%;
     padding: 20px 10%;
   }
-  
+
   .name {
     font-size: 20px;
   }
@@ -716,7 +716,7 @@ footer {
   .knowledge ul {
     align-items: baseline;
   }
-  
+
   .contact-form-1 {
     padding: 130px 100px;
     display: grid;
@@ -724,7 +724,7 @@ footer {
     grid-column-gap: 24px;
     align-items: baseline;
   }
-  
+
   .contact-title {
     max-width: 455px;
     margin: 0;
@@ -752,7 +752,7 @@ footer {
     background-repeat: no-repeat;
     background-position-y: 99.47px;
   }
-  
+
   .about-me {
     background-image: none;
   }
