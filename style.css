@@ -787,3 +787,7 @@ footer {
 }
 
 /* Animations and transitions */
+img:hover {
+  border-radius: 50%;
+  transition: width 2s, height 4s;
+}
