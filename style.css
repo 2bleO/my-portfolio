@@ -591,9 +591,15 @@ h2 {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1308px) {
   .about {
     padding: 0 141px;
+    background-image: url("img/illustration-about me.png");
+    background-size: 672.39px 352.38px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-position-y: 99.47px;
+
   }
 }
 
@@ -605,12 +611,11 @@ h2 {
   flex-direction: column;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1308px) {
   .about-me {
     background-image: none;
   }
 }
-
 .about-me h2 {
   font-family: Crete Round, sans-serif;
   font-style: normal;
@@ -641,20 +646,6 @@ h2 {
     text-align: left;
     font-size: 20px;
     line-height: 32px;
-  }
-}
-
-@media (max-width: 800px) {
-  .about-illustration {
-    display: none;
-  }
-}
-
-@media (min-width: 800px) {
-  .about-illustration {
-    width: 672.39px;
-    height: 352.38px;
-    float: right;
   }
 }
 
