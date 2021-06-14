@@ -818,7 +818,11 @@ img:hover {
   90% {
     color: rgb(0, 41, 128);
   }
-  
+
+  95% {
+    color: rgb(36, 128, 0);
+  }
+
   100% {
     color: white;
   }
