@@ -795,18 +795,25 @@ img:hover {
 }
 
 @keyframes changecolors {
-  0% { color: white;
+  0% { 
+    color: white;
   } 
-  15% { color: thistle;
+  15% { 
+    color: thistle;
   }
-  25% { color: rgb(177, 49, 166);
+  25% { 
+    color: rgb(177, 49, 166);
   }
-  50% { color: rgb(157, 32, 206);
+  50% { 
+    color: rgb(157, 32, 206);
   }
-  75% { color: teal;
+  75% { 
+    color: teal;
   }
-  90% { color: rgb(0, 41, 128);
+  90% { 
+    color: rgb(0, 41, 128);
   }
-  100% { color: white;
+  100% { 
+    color: white;
   }
 }
