@@ -1,10 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Portfolio: (https://2bleo.github.io/my-portfolio/)
+# My Portfolio:
 
 > Web page to Showcase my Projects.
 
 ![screenshot](img/Screenshot.jpg)
+
+[Online Version] (https://2bleo.github.io/my-portfolio/)
 
 
 ## Built With
