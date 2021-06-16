@@ -235,7 +235,7 @@ h2 {
   margin-top: 10px;
   margin-bottom: 24px;
   align-self: flex-start;
-  color: white;
+  color: black;
 }
 
 .btn1:hover {
@@ -245,7 +245,7 @@ h2 {
 }
 
 .btn1:active {
-  color: #f4f1f0;
+  color: black;
   background: #e05304;
   box-sizing: border-box;
 }
@@ -317,7 +317,7 @@ h2 {
 .papd button {
   margin: 0;
   height: 48px;
-  color: #fff;
+  color: black;
   background: #ff6b00;
   font-family: Inter, sans-serif;
   font-style: normal;
