@@ -6,7 +6,7 @@
 
 ![screenshot](img/Screenshot.jpg)
 
-[Online Version](https://2bleo.github.io/my-portfolio/)
+[Online Version] (https://2bleo.github.io/my-portfolio/)
 
 
 ## Built With
@@ -20,7 +20,7 @@
 
 - GitHub: [@2bleo](https://github.com/2bleO)
 - Twitter: [@OleaOnesis](https://twitter.com/OleaOnesis)
-- LinkedIn: [Onesis Olea](https://www.linkedin.com/in/onesis-olea)
+- LinkedIn: [Onesis Olea]((https://www.linkedin.com/in/onesis-olea)
 
 ## 🤝 Contributing
 
