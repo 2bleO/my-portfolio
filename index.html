@@ -26,20 +26,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="scroll" id="body">
 
   <!-- header section -->
 
   <header class="header">
-    <a href="#" class="name">Onesis Olea</a>
+    <a href="#" class="name" id="devname">Onesis Olea</a>
     <nav class="menu">
       <i class="fas fa-bars"></i>
     </nav>
-    <nav class="desktop-menu">
+    <nav class="desktop-menu" id="menu">
       <ul>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="#"><i class="far fa-envelope"></i></a></li>
       </ul>
     </nav>
@@ -67,6 +67,7 @@
     <!-- Works section -->
 
     <section class="my-works">
+      <a id="portfolio"></a>
       <div class="works-heading">
         <h2 class="works-title">My Recent Works</h2>
         <hr class="separate">
@@ -152,6 +153,7 @@
     </section>
 
     <!-- About section -->
+    <a id="about"></a>
     <section class="about">
       <div class="about-me">
         <h2>About me</h2>
@@ -201,6 +203,7 @@
       </div> 
     </section>
     <section class="contact-form-1">
+      <a id="contact"></a>
       <div class="contact-header">
         <h3 class="contact-title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
       </div>
@@ -228,6 +231,8 @@
       <li class="social-icon"><a href="#"><i class="fab fa-medium"></i></a></li>
     </ul>
     <div class="footer-hr"></div>
-  </footer>   
+  </footer>
+  
+  <script src="js/mobileMenu.js"></script>
 </body>
 </html>
